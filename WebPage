@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SKAI BUILDERS VENTURES | Quality, Precision and Excellence</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      color: #333;
+      background-color: #f8f8f8;
+    }
+
+    header {
+      background: url('https://images.unsplash.com/photo-1601568871526-621c73ff1f2f') no-repeat center center/cover;
+      color: white;
+      text-align: center;
+      padding: 80px 20px;
+    }
+
+    header h1 {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 20px;
+      font-style: italic;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      background-color: #28a745;
+      color: white;
+      padding: 12px 24px;
+      text-decoration: none;
+      border-radius: 4px;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    .services, .gallery, .contact {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .service-box {
+      background: white;
+      padding: 20px;
+      width: 220px;
+      text-align: center;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    .service-box h3 {
+      margin-top: 10px;
+    }
+
+    .gallery img {
+      width: 300px;
+      border-radius: 8px;
+      object-fit: cover;
+    }
+
+    .testimonial {
+      font-style: italic;
+      margin: 20px auto;
+      text-align: center;
+      max-width: 600px;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #222;
+      color: white;
+      padding: 30px 20px;
+    }
+
+    footer a {
+      color: #ffd700;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>SKAI BUILDERS VENTURES</h1>
+    <p>Quality, Precision and Excellence</p>
+    <a href="https://wa.me/27696837279" class="btn">Get a Free Quote on WhatsApp</a>
+  </header>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>At SKAI BUILDERS VENTURES, we’re passionate about building and restoring spaces that truly stand out. Based in Cape Town, we specialize in expert repairs, durable epoxy flooring, flawless painting, and precision tiling. Every job is guided by our core values: Quality, Precision, and Excellence. Let’s transform your space the right way.</p>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="service-box">
+        <h3>🔧 Repairs</h3>
+        <p>Reliable, fast fixes for residential and commercial properties.</p>
+      </div>
+      <div class="service-box">
+        <h3>🧱 Epoxy Flooring</h3>
+        <p>Seamless, durable flooring for garages, showrooms, and workspaces.</p>
+      </div>
+      <div class="service-box">
+        <h3>🎨 Painting</h3>
+        <p>Clean and professional painting for interiors and exteriors.</p>
+      </div>
+      <div class="service-box">
+        <h3>🧽 Tiling</h3>
+        <p>Neat, symmetrical tiling with long-lasting finish.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery">
+    <h2>Our Work</h2>
+    <div class="gallery">
+      <img src="https://images.unsplash.com/photo-1613977257592-f559b2b2459d" alt="Epoxy Flooring"/>
+      <img src="https://images.unsplash.com/photo-1628519596214-1165327957b0" alt="Painting Job"/>
+      <img src="https://images.unsplash.com/photo-1608243549290-bb2415a0c79e" alt="Tiling Example"/>
+    </div>
+  </section>
+
+  <section id="testimonials">
+    <h2>What Our Clients Say</h2>
+    <div class="testimonial">“SKAI Builders transformed our old garage floor into a sleek, professional space. We couldn’t be happier!” – Thabo M.</div>
+    <div class="testimonial">“From the painting to the tile work, everything was top-notch. Punctual, neat, and affordable.” – Ayesha R.</div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <div class="contact">
+      <p>📞 Phone: <a href="tel:+27794603391">079 460 3391</a></p>
+      <p>📧 Email: <a href="mailto:kayenelawrence17@gmail.com">kayenelawrence17@gmail.com</a> / <a href="mailto:kayconnects0@gmail.com">kayconnects0@gmail.com</a></p>
+      <p>📍 Location: Cape Town, South Africa</p>
+      <p>💬 WhatsApp: <a href="https://wa.me/27696837279">Chat with us on WhatsApp</a></p>
+      <p>📘 Facebook: <a href="https://www.facebook.com/profile.php?id=61574940700276" target="_blank">Visit our Facebook Page</a></p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 SKAI BUILDERS VENTURES. All rights reserved.</p>
+    <p>No website? No problem – Connect with us on <a href="https://www.facebook.com/profile.php?id=61574940700276" target="_blank">Facebook</a></p>
+  </footer>
+
+</body>
+</html>
